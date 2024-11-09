@@ -1,0 +1,9 @@
+1. install the any web server, say tomcat
+
+2. checkout the pearlweb repo to local folder
+
+3. copy all the files from "pearlweb" folder to /tomcat/webapps/PTSS folder
+
+4. start tomcat server from /tomcat/bin - startup.bat from command promt
+
+5. open - http://localhost:8080/PTSS/

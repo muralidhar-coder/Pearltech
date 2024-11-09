@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.menu-link.active {
+    font-weight: bold;
+    color: #007bff; /* Adjust as needed */
+}
+
