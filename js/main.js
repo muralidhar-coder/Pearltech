@@ -18,10 +18,13 @@
 
     // Sticky Navbar
     $(window).scroll(function () {
+        const navbar = document.querySelector(".navbar");
         if ($(this).scrollTop() > 45) {
             $('.navbar').addClass('sticky-top shadow-sm');
+            navbar.classList.add("scrolled");
         } else {
             $('.navbar').removeClass('sticky-top shadow-sm');
+            navbar.classList.remove("scrolled");
         }
     });
     
@@ -106,7 +109,6 @@ $('.back-to-top').click(function () {
         loop: true,
         margin: 45,
         dots: false,
-        loop: true,
         autoplay: true,
         smartSpeed: 1000,
         responsive: {

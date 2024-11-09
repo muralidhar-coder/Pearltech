@@ -155,10 +155,21 @@ h6,
     border-color: var(--primary) !important;
 }
 
+/* Default h3 color */
+.navbar .navbar-brand h3 {
+    color: white;
+}
+
+/* Change h3 color to dark when navbar has "scrolled" class */
+.navbar.scrolled .navbar-brand h3 {
+    color: var(--dark) !important; /* Assuming --dark is a CSS variable defined elsewhere */
+}
+
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
-        background: #FFFFFF ;
+        background: #FFFFFF;
     }
 
     .navbar-dark .navbar-nav .nav-link,
